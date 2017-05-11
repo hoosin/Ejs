@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>测试demo</title>
+</head>
+<body data-api="http://www.vip.com/" data-name="hoosin" data-uid="42343242344535fdsfc" data-play="http://api.vip.com" data-base="http://test.vip.com/">
+<h1>测试demo</h1>
+<h4>
+	收银台是一个流量较大的系统,
+	为了减少去监控中心,快速定位 bug
+	编写了此方法
+</h4>
+<script src="./E.min.js"></script>
+<!-- E.js 基础配置 -->
+<script type="text/javascript">
+	var _temp_ = document.getElementsByTagName("body")[0].dataset;
+
+	E.init({
+		url:_temp_.api,
+		name:_temp_.name,
+		VipUID:_temp_.uid
+	});
+</script>
+<script src="test.js"></script>
+</body>
+</html>

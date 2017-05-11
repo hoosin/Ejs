@@ -1,0 +1,31 @@
+{
+  "name": "Ejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./desktop/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "dist": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.tools.vipshop.com/sin01.hu/E.git"
+  },
+  "author": "hoosin",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp": "^3.9.1",
+    "jshint": "^2.9.4"
+  }
+}
